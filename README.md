@@ -18,6 +18,7 @@ A list of things that I have learned about the MacOS terminal that I have found 
 | VI [file] | Opens a file with the VI text editor |
 | VIM [file] | Opens a file with the VIM text editor |
 | nano [file] | Opens a file with the nano editor |
+| less [file] | Outputs file content to screen in screen-sized chunks |
 | sudo | SuperUser DO - Runs a command with the priviliges of the superuser e.g. `sudo install gem cocoapods`|
 | top | Displays active processes and ressource usage (Press Q to quit) |
 | clear | Clears the terminal screen |
@@ -31,5 +32,15 @@ A list of things that I have learned about the MacOS terminal that I have found 
 | touch -m [file] | Chamges the modification time to the current time |
 | touch -am [file] | Combines the last two commands |
 | touch -r [file1] [file2] | -r = reference, use times for file1 for file 2 |
-| touch -B [file] | Modifies timestamps by going Back X number of seconds, e.g. `touch -r file1 -B 30 file2` makes file2 30 seconds older than file1|
+| touch -B [file] | Modifies timestamps by going Back X number of seconds, e.g. `touch -r file1 -B 30 file2` makes file2 30 seconds older than file1 |
 | touch -d [date] [file] | Changes the last access time of a file to a specific time, e.g. `touch -d 1 November 2019 10:22 [file]` |
+| .. | The parent directory of your current directory, e.g. `ls ..` |
+| . | Current folder, e.g. `ls .` |
+| rm [file] | Remove the file |
+| rm -r [dir] | Remove the directory and its contents |
+| cp [file] [file2] | Copy file to file |
+| cp [file] [dir] | Copy file to directory |
+| mv [file] [new filename] | Move/Rename e.g. `mv file1.txt /tmp` |
+| mkdir [dir] | Create a new directory |
+| mkdir -p [dir]/[dir] | Create a nested directory path |
+| rmdir [dir] | Remove a directory (only works on empty directories |
