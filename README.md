@@ -43,4 +43,4 @@ A list of things that I have learned about the MacOS terminal that I have found 
 | mv [file] [new filename] | Move/Rename e.g. `mv file1.txt /tmp` |
 | mkdir [dir] | Create a new directory |
 | mkdir -p [dir]/[dir] | Create a nested directory path |
-| rmdir [dir] | Remove a directory (only works on empty directories |
+| rmdir [dir] | Remove a directory (only works on empty directories) |
